@@ -13,11 +13,13 @@
     button.addEventListener('mouseenter', function() {
       const color = this.getAttribute('data-color');
       this.style.backgroundColor= color;
+        this.style.color=color;
       
     });
 
     button.addEventListener('mouseleave', function() {
       this.style.backgroundColor = ''; // Reset text color to default
+    this.style.color='';
     });
 
     button.addEventListener('click', function() {
