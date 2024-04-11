@@ -1,0 +1,33 @@
+/* *{
+    background-color: black;
+} */
+.title{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(111, 128, 252);
+}
+
+.btns {
+    display:flex;
+    justify-content: center;
+    align-items: center; /* Align items vertically centered */
+    
+  }
+  
+  .btns .btn {
+    background: rgb(101, 99, 215);
+    margin: 100px 20px; 
+    color: bisque;
+    height:100px;
+    width: 100px;
+    border-color: black;
+    border: solid;
+    border-radius: 50px;/* Adjust the space between buttons */
+  }
+  .h{
+    text-align: center;
+  }
+  
+  
